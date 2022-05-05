@@ -3,6 +3,7 @@ import React from 'react'
 import HeaderTabs from '../components/HeaderTabs'
 import SearchBar from '../components/SearchBar'
 import Categories from '../components/Categories'
+import ProductItem from '../components/ProductItem'
 
 export default function HomeScreen() {
 	return (
@@ -13,6 +14,7 @@ export default function HomeScreen() {
 			</View>
 			<ScrollView showsVerticalScrollIndicator={false}>
 				<Categories />
+				<ProductItem />
 			</ScrollView>
 		</SafeAreaView>
 	)
