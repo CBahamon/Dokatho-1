@@ -1,7 +1,8 @@
-import { SafeAreaView, StyleSheet, View } from 'react-native'
+import { SafeAreaView, StyleSheet, View, ScrollView } from 'react-native'
 import React from 'react'
 import HeaderTabs from '../components/HeaderTabs'
 import SearchBar from '../components/SearchBar'
+import Categories from '../components/Categories'
 
 export default function HomeScreen() {
 	return (
@@ -10,20 +11,22 @@ export default function HomeScreen() {
 				<HeaderTabs />
 				<SearchBar />
 			</View>
+			<ScrollView showsVerticalScrollIndicator={false}>
+				<Categories />
+			</ScrollView>
 		</SafeAreaView>
 	)
 }
 
 const styles = StyleSheet.create({
 	container: {
-		flex:1,
-		backgroundColor:'#eee'
+		flex: 1,
+		backgroundColor: '#eee'
 	},
-	header:{
+	header: {
 		marginTop: 30,
-		backgroundColor:"white",
-		padding:15,
-		width:"100%"
+		backgroundColor: "white",
+		padding: 15,
+		width: "100%"
 	}
-
 }) 
