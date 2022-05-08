@@ -20,10 +20,22 @@ export default function ProductItem() {
 		<View >
 			<ScrollView>
 				<Card 
-				image={urlImg} name={"Bicicleta todo terreno"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"Intercambiar por: TV"} 
+				image={urlImg} name={"Bicicleta todo terreno para locos"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva(Huila), Colombia"} barter={"clases de programacion orientada "} 
 				/>
 				<Card 
-				image={urlImg2} name={"Bicicleta todo terreno"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"Intercambiar por: TV"} 
+				image={urlImg2} name={"Mac book Pro 2021 8ram"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"iphone 12 pro mar"} 
+				/>
+				<Card 
+				image={urlImg} name={"redmi note 9 s 4ram 128rom"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"TV 32 pulgas lg"} 
+				/>
+				<Card 
+				image={urlImg2} name={"Bicicleta todo terreno"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"TV"} 
+				/>
+				<Card 
+				image={urlImg} name={"Bicicleta todo terreno"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"TV"} 
+				/>
+				<Card 
+				image={urlImg2} name={"Bicicleta todo terreno"} description={"Bicicleta todo terreno gw con 3 años de uso en buen estado color naranaja 7 velocidades rin 27 y 2 platos"} location={"Neiva"} barter={"TV"} 
 				/>
 			</ScrollView>
 		</View>
