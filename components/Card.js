@@ -12,7 +12,7 @@ export default function Card({ name, description, location, barter, image }) {
 					<View style={styles.cardImage}>
 						<Image
 							source={{ uri: image }}
-							style={{ width: '100%', height: '100%', borderRadius: 20 }}
+							style={{ width: '100%', height: '100%', borderRadius: 5 }}
 						/>
 					</View>
 					<View style={styles.cardInfo}>

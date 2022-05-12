@@ -6,15 +6,15 @@ export const styles = StyleSheet.create({
 	cardProduct: {
 		display: 'flex',
 		alignItems: 'center',
-		paddingHorizontal: 10,
-		paddingVertical: 5
+		// paddingHorizontal: 10,
+		paddingVertical: 3
 	},
 	cardData: {
 		display: 'flex',
 		flexDirection: 'row',
 		width: '100%',
-		height: height / 6.5,
-		borderRadius: 20,
+		height: height / 5.5,
+		// borderRadius: 20,
 		// backgroundColor: 'rgba(46, 44, 44,0.5);',
 		shadowColor: 'black',
 		shadowOpacity: 0.26,
@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
 		// borderRadius: 20,
 		marginVertical: 10,
 		marginLeft:10,
-		width: '40%',
+		width: '35%', 
 		// aspectRatio: 1,
 		// flex: 0.6,
 		// height:'100%',
@@ -50,7 +50,7 @@ export const styles = StyleSheet.create({
 	cardLocation: {
 		fontSize: 13,
 		color: "#777",
-		paddingVertical:5,
+		paddingVertical:8,
 		// marginTop:3,
 		marginLeft: 10,
 	},
