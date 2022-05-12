@@ -22,7 +22,7 @@ export default function Card({ name, description, location, barter, image }) {
 							{location}
 						</Text>
 						<Text style={styles.cardBarter}>
-							<Text style={styles.titleBarter}>Trueque por:</Text> {barter}
+							<Text style={styles.titleBarter}>Trueque :</Text> {barter}
 						</Text>
 					</View>
 					{/* <View style={styles.containerIcons}>
