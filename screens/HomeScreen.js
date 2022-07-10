@@ -1,21 +1,27 @@
 import { SafeAreaView, StyleSheet, View, ScrollView } from 'react-native'
-import React from 'react'
+import { Divider } from 'react-native-elements'
+import React, { useState }  from 'react'
+
 import HeaderTabs from '../components/HeaderTabs'
 import SearchBar from '../components/SearchBar'
 import Categories from '../components/Categories'
-import ProductItem from '../components/ProductItem'
+import ProductItem, { products } from '../components/ProductItem'
+import BottomTabs from '../components/Layout/BottomTabs'
 
 export default function HomeScreen() {
+	const [productData, setProductData] = useState(products)
 	return (
 		<SafeAreaView style={styles.container}>
 			<View style={styles.header}>
-				<HeaderTabs />
 				<SearchBar />
+				<HeaderTabs />
 			</View>
 			<ScrollView showsVerticalScrollIndicator={false}>
 				<Categories />
-				<ProductItem />
+				<ProductItem productData={productData}/>
 			</ScrollView>
+			<Divider width={1}/>
+			<BottomTabs />
 		</SafeAreaView>
 	)
 }

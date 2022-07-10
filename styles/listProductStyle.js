@@ -13,8 +13,8 @@ export const styles = StyleSheet.create({
 		display: 'flex',
 		flexDirection: 'row',
 		width: '100%',
-		height: height / 6.5,
-		borderRadius: 20,
+		height: height / 5.8,
+		borderRadius: 8,
 		// backgroundColor: 'rgba(46, 44, 44,0.5);',
 		shadowColor: 'black',
 		shadowOpacity: 0.26,
@@ -67,14 +67,12 @@ export const styles = StyleSheet.create({
 	},
 
 	containerIcons: {
-		// width:"80%",
 		display: "flex",
 		flex: 0.4,
-		// flexDirection:"row",
-		backgroundColor: "#000",
 		position: 'absolute',
-		// right: '40%',
-		top: '80%',
+		right: '2%',
+		top: '2%',
+		padding:5,
 	},
 	iconHeard: {
 

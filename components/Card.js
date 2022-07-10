@@ -12,7 +12,7 @@ export default function Card({ name, description, location, barter, image }) {
 					<View style={styles.cardImage}>
 						<Image
 							source={{ uri: image }}
-							style={{ width: '100%', height: '100%', borderRadius: 20 }}
+							style={{ width: '100%', height: '100%', borderRadius: 8 }}
 						/>
 					</View>
 					<View style={styles.cardInfo}>
@@ -25,12 +25,11 @@ export default function Card({ name, description, location, barter, image }) {
 							<Text style={styles.titleBarter}>Trueque :</Text> {barter}
 						</Text>
 					</View>
-					{/* <View style={styles.containerIcons}>
+					<View style={styles.containerIcons}>
 						<TouchableOpacity>
-							<Text>Me Gusta</Text>
 							<MaterialCommunityIcons name="heart-outline" size={25} color="#000" />
 						</TouchableOpacity>
-					</View> */}
+					</View>
 				</View>
 			</TouchableOpacity>
 		</>
