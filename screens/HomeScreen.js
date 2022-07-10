@@ -6,7 +6,7 @@ import HeaderTabs from '../components/HeaderTabs'
 import SearchBar from '../components/SearchBar'
 import Categories from '../components/Categories'
 import ProductItem, { products } from '../components/ProductItem'
-import BottomTabs from '../components/Layout/BottomTabs'
+import BottomTabs from '../components/Navbar/BottomTabs'
 
 export default function HomeScreen() {
 	const [productData, setProductData] = useState(products)
